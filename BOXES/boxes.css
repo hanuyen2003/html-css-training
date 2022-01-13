@@ -1,0 +1,16 @@
+.hu {
+  border: 10px solid rgb(16, 109, 21);
+  padding: 20px;
+  margin: 50px;
+  border-image: url("https://anhdep123.com/wp-content/uploads/2021/02/anh-meo-hai-huoc.jpg")
+    100 stretch;
+  box-shadow: 25px 20px 10px 10px gray;
+  border-radius: 200px;
+}
+p {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: tomato;
+  color: aqua;
+}

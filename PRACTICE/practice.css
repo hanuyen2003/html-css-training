@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 20px;
+  color: white;
+}
+#top {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 100px;
+  padding: 20px;
+}
+#top .top1 {
+  display: flex;
+  list-style: none;
+}
+#top .top1 li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.fa-gratipay {
+  border: 2px solid rgb(50, 205, 89);
+  background-color: aqua;
+  border-radius: 100%;
+  color: white;
+}
+#top .share {
+  margin-top: -10px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(0, 97, 100);
+  border-radius: 6px;
+}
+#top .top1 li:hover {
+  padding-bottom: 10px;
+  border-bottom: 2px solid green;
+}
+body {
+  background: url("./z3100226085399_a14184309a123aa1fe69a0c1f08164eb.jpg");
+}
+
+#header p {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 100px;
+}
+#header table {
+  margin: 0 auto;
+  margin-top: 50px;
+  border-spacing: 40px 0px;
+}
+#header .button,
+.submit {
+  padding: 10px 20px;
+}
+#header .button {
+  border: none;
+  background-color: darkgreen;
+}
+
+#header .submit {
+  border: none;
+  background-color: rgb(102, 102, 109);
+}
+
+#header .button:hover {
+  background-color: aqua;
+}
+
+#header .submit:hover {
+  background-color: darkblue;
+}
+#header {
+  height: 400px;
+}
+
+#section {
+  padding: 30px 300px;
+  background-color: white;
+}
+
+#section p {
+  text-align: center;
+  color: black;
+}

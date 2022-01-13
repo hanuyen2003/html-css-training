@@ -1,0 +1,32 @@
+.header {
+  color: red;
+}
+* {
+  text-align: center;
+}
+.kho1 ul {
+  /* kiểu của list chấm tròn đậm*/
+  list-style-type: disc;
+  color: rosybrown;
+  font-size: x-large;
+  background-image: url("https://www.tuyengiao.vn/Uploads/2018/Images/Normal/2018/4/55d13037597633861e53a8fe1a72e6c3-4.30.4..jpg");
+}
+.kho2 ul {
+  /* kiểu của list :viền vuông */
+  list-style-type: square;
+  color: aqua;
+  font-size: xx-large;
+  background-image: url("https://nguoi-noi-tieng.com/images/post/sm/hinh-anh-xua-cua-mien-trung-xua-393353.jpg");
+}
+
+.kho3 ul {
+  /* kiểu của list: chấm tròn đậm */
+  list-style-type: circle;
+  color: white;
+  font-size: xx-large;
+  list-style-position: inside;
+  background-image: url("https://media-cdn.laodong.vn/Storage/newsportal/2018/12/6/645376/ORG_PLP02646.jpg");
+}
+.kho4 ul {
+  list-style: inside circle;
+}
